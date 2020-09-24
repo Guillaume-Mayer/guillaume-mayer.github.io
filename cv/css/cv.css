@@ -265,6 +265,20 @@ section {
 	}
 }
 
+@media print {
+	.experience .desc a {
+		visibility: hidden;
+	}
+}
+
+.experience .desc a::before {
+	content: "(";
+}
+
+.experience .desc a::after {
+	content: ")";
+}
+
 li {
 	list-style-type: square;
 }
