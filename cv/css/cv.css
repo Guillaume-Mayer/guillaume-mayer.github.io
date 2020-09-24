@@ -2,7 +2,7 @@ body {
 	color: #333333;
 	font-family: "Segoe UI", Arial, sans-serif;
 	margin: 3mm 3mm 3mm 3mm;
-	background-color: #FFF9FF;
+	background-color: #F0F0F0;
 }
 
 h1 {
@@ -158,10 +158,14 @@ section {
 }
 
 .label {
-	font-weight: 600;
+	font-weight: bold;
 	display: inline-block;
 	width: 140px;
 	text-align: right;
+}
+
+.online-presence .label {
+	font-weight: normal;
 }
 
 .label::after{
