@@ -53,6 +53,7 @@ nav {
 	position: absolute;
 	top: -10px;
 	right: 10px;
+	display: none; /* TODO Delete but only spanish is up to date */
 }
 
 nav li {
@@ -123,7 +124,7 @@ section {
 	margin: 0;
 	border: 0;
 	padding: 5px;
-	width: 210px;
+	width: 220px;
 	text-align: right;
 }
 
@@ -177,10 +178,14 @@ section {
 	font-style: normal;
 }
 
+.experience article {
+	padding: 8px 0px 8px 0px;
+}
+
 .skills-list {
 	display: inline-block;
 	margin: 0;
-	width: 440px;
+	width: 400px;
 }
 
 @media screen and (max-width: 640px) {
