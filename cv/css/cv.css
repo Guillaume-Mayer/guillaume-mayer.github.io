@@ -318,9 +318,11 @@ li {
 	pointer-events: none;
 	opacity: 0;
 	transition: opacity 400ms ease-in;
+	visibility: hidden;
 }
 
 .popup_show {
+	visibility: visible;
 	pointer-events: auto;
 	opacity: 1;
 }
